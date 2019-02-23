@@ -1,0 +1,356 @@
+/* //////////////////////INI BUAT KESELURUHAN////////////////////// */
+html, body, div, span, h1, h4, a, img, b, u, i,ul, li, footer, header, nav, section{
+        background: transparent;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        vertical-align: baseline;
+        text-decoration: none;
+    }
+    html {
+        font-size: 62.5%;
+        scroll-behavior: smooth;
+    }
+    body {
+        background: #000;
+        font-family: 'opensans-regular', sans-serif;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 30px;
+        color: #838C95;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    p {
+        margin: 0 0 30px 0;
+    }
+    section {
+        display: block;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+        padding-top: 80px;
+        padding-bottom: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .judul_section{
+        color: #b6b6b6;
+        letter-spacing: 4px;
+    }
+/* //////////////////////INI BUAT MENU////////////////////// */
+    #nav-wrap {
+        font-weight: 700;
+        font-family: sans-serif;
+        width: 100%;
+        text-transform: uppercase;
+        letter-spacing: 4.5px;
+        margin: 0 auto;
+        z-index: 100;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    #nav-wrap ul, #nav-wrap li, #nav-wrap a {
+        margin: 0;
+        padding: 0;
+        border: none;
+        outline: none;
+    }
+    ul#nav li {
+        position: relative;
+        list-style: none;
+        height: 48px;
+        display: inline-block;
+    }
+    ul#nav li a {
+        display: inline-block;
+        border: 2px solid transparent;
+        padding: 8px 13px;
+        line-height: 32px;
+        text-decoration: none;
+        text-align: left;
+        color: #fff;
+    } 
+    ul#nav li a:hover {
+        border: 2px solid #ababab;
+        color: #ababab;
+    } 
+/* //////////////////////INI BUAT HEADER / HOME////////////////////// */
+    header {
+        position: relative;
+        height: 800px;
+        min-height: 500px;
+        width: 100%;
+        background: #161415 url(pict/home.jpg) no-repeat top center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        text-align: center;
+        overflow: hidden;
+    }
+    header .judul {
+        padding-top: 270px;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 auto;
+        width: 85%;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    header .judul-text h1 {
+        font: 90px/1.1em 'opensans-bold', sans-serif;
+        color: #fff;
+        letter-spacing: -2px;
+        margin: 0 auto 18px auto;
+        text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+    }
+    header .judul-text h3 {
+        font: 18px/1.9em 'librebaskerville-regular', serif;
+        color: #fff;
+        margin: 0 auto;
+        width: 70%;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+    }
+    header .judul-text h3 a {
+        color: #ababab;
+    }
+    header .judul-text h3 a:hover{
+        color: #555555;
+    }
+    header .judul-text hr {
+        width: 60%;
+        margin: 18px auto 24px auto;
+        background-color: #fff;
+        border-color: transparent;
+    }
+
+/* //////////////////////INI BUAT FOOTER////////////////////// */
+    footer {
+        padding-top: 30px;
+        margin-bottom: 50px;
+        color: #ebeeee;
+        background-color: black;
+        font-size: 14px;
+        text-align: center;
+        position: relative;
+    }
+/* //////////////////////INI BUAT SECTION ABOUT////////////////////// */
+    #about{
+        background: url(pict/about.jpg) no-repeat top center;
+        background-size: cover;
+        -webkit-background-size: cover;
+    }
+    #about .profile {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        align-items: center;
+        border-radius: 100%;
+        border: 3px solid #626262;
+    }
+    #about .ppict{
+        position: relative;
+        padding: 0 20px;
+        min-height: 1px;
+        width: 209.46px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+    }
+    #about h1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 50px;
+    }
+    #about h2 {
+        font: 22px/30px 'opensans-bold', sans-serif;
+        color: #fff;
+        margin-bottom: 12px;
+    }
+    #about p {
+        font-size: 130%;
+        line-height: 30px;
+        color: #fff;
+    }
+    #about .isi{
+        text-align: justify;
+    }
+/* //////////////////////INI BUAT SECTION RESUME////////////////////// */
+    #resume{
+        background-color: #191919;
+    }
+    .baris{
+        padding-top: 40px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        display: flex;
+        border-bottom: 1px solid #e8e8e8;
+    }
+    .title_resume{
+        padding-top: 4px;
+        letter-spacing: 2px;
+        font-size: 200%;
+        width: 15%;
+        flex: 1; 
+    }
+    .isi_resume{
+        padding-left: 15%;
+        padding-bottom: 20px;
+        width: 70%; 
+    }
+    #resume h1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 50px;
+    }
+    #resume li{
+        letter-spacing: 2px;
+        list-style: none;
+    }
+    #kapasitas_bar_1 { 
+        border-radius: 5px;
+        width: 80%;
+        background: transparent;
+        display: flex;
+    }
+    #bar_a_1 { 
+        background: #313131;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        width: 75%;
+        flex: 1;
+    } 
+    #bar_b_1 { 
+        background: #cccccc;
+        width: 25%;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    #kapasitas_bar_2 { 
+        border-radius: 5px;
+        width: 80%;
+        background: transparent;
+        display: flex;
+    }
+    #bar_a_2 { 
+        background: #313131;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        width: 50%;
+        flex: 1;
+    } 
+    #bar_b_2 { 
+        background: #cccccc;
+        width: 50%;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    #kapasitas_bar_3 { 
+        border-radius: 5px;
+        width: 80%;
+        background: transparent;
+        display: flex;
+    }
+    #bar_a_3 { 
+        background: #313131;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        width: 62%;
+        flex: 1;
+    } 
+    #bar_b_3 { 
+        background: #cccccc;
+        width: 38%;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    #kapasitas_bar_4 { 
+        border-radius: 5px;
+        width: 80%;
+        background: transparent;
+        display: flex;
+    }
+    #bar_a_4 { 
+        background: #313131;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        width: 67%;
+        flex: 1;
+    } 
+    #bar_b_4 { 
+        background: #cccccc;
+        width: 33%;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+/* //////////////////////INI BUAT SECTION WORKS////////////////////// */
+    #works{
+        background-color: #2b2b2b;
+    }
+    #works h1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 50px;
+    }
+    #kotak_works{
+        width: 100%;
+        border: 1px solid transparent;
+        padding-bottom: 10px;
+    }
+    .title_works{
+        padding-top: 4px;
+        letter-spacing: 2px;
+        font-size: 200%;
+        width: 5%;
+        flex: 1; 
+    }
+    .isi_works{
+        padding-bottom: 20px;
+        width: 75%; 
+    }
+    .gambar1{
+        width: 262px;
+        height: 352px;
+        border: 3px solid transparent;
+        border-radius: 4    px;
+        padding: 2px;
+    }
+    .gambar1:hover{
+        opacity: 0.5;
+        width: 262px;
+        height: 352px;
+        border: 3px solid transparent;
+        border-radius: 4px;
+        padding: 2px;
+    }
+    .gambar2{
+        width: 30%;
+        border: 3px solid transparent;
+        border-radius: 2px;
+        padding: 2px;
+    }
+    .gambar2:hover{
+        width: 30%;
+        border: 3px solid #ddd;
+        border-radius: 2px;
+        padding: 2px;
+    }
+/* //////////////////////INI BUAT SECTION CONTACT////////////////////// */
+    #contact{
+        background-color: #191919;
+    }
+    #contact p{
+        padding-left: 10px;
+    }
+    #contact h1{
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 80px;
+    }
